@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script defer src="bundle.js"></script>
+</head>
+<body>
+    <!--
+        <section class="owi-group">
+            <i class="owi owi-01d"></i>
+            <i class="owi owi-01n"></i>
+        </section>
+    -->
+    <h1 class="locationHeader">Atlanta, Ga.</h1>
+    <div class="weather">
+        <h2>Today</h2>
+        <i class="owi"></i>
+        <span class="main"></span>
+        <span class="description"></span>
+    </div>
+    <div class="weatherDetails">
+        <h2>Details</h2>
+        <span class="temp"></span>
+        <span class="feelsLike"></span>
+        <span class="tempMin"></span>
+        <span class="tempMax"></span>
+        <span class="pressure"></span>
+        <span class="humidity"></span>
+        <span class="rain"></span>
+        <span class="clouds"></span>
+    </div>
+    <div class="wind">
+        <h2>Wind</h2>
+        <span class="speed"></span>
+        <span class="windDeg"></span>
+        <span class="gust"></span>
+    </div>
+    <div class="cityForm">
+        <h2>Search</h2>
+        <form>
+            <div>
+                <label for="city">City: </label>
+                <input type="search" id="city" name="city">
+            </div>
+            <div>
+                <label for="state">State: </label>
+                <input type="text" id="state" name="state" maxlength="2">
+            </div>
+            <div>
+                <label for="country">Country: </label>
+                <input type="text" id="country" name="country" maxlength="2">
+            </div>
+            <button type="button" class="submitBtn">Search</button>
+        </form>
+    </div>
+    <div class="fiveDayForecast">
+        <div class="day0 fiveday">
+            <h2 class="day0date"></h2>
+            <i id="day0" class="owi"></i>
+            <span class="day0main"></span>
+            <span class="day0description"></span>
+            <span class="day0temp"></span>
+            <span class="day0feelsLike"></span>
+            <span class="day0rain"></span>
+            <span class="day0clouds"></span>
+        </div>
+        <div class="day1 fiveday">
+            <h2 class="day1date"></h2>
+            <i id="day1" class="owi"></i>
+            <span class="day1main"></span>
+            <span class="day1description"></span>
+            <span class="day1temp"></span>
+            <span class="day1feelsLike"></span>
+            <span class="day1rain"></span>
+            <span class="day1clouds"></span>
+        </div>
+        <div class="day2 fiveday">
+            <h2 class="day2date"></h2>
+            <i id="day2" class="owi"></i>
+            <span class="day2main"></span>
+            <span class="day2description"></span>
+            <span class="day2temp"></span>
+            <span class="day2feelsLike"></span>
+            <span class="day2rain"></span>
+            <span class="day2clouds"></span>
+        </div>
+        <div class="day3 fiveday">
+            <h2 class="day3date"></h2>
+            <i id="day3" class="owi"></i>
+            <span class="day3main"></span>
+            <span class="day3description"></span>
+            <span class="day3temp"></span>
+            <span class="day3feelsLike"></span>
+            <span class="day3rain"></span>
+            <span class="day3clouds"></span>
+        </div>
+        <div class="day4 fiveday">
+            <h2 class="day4date"></h2>
+            <i id="day4" class="owi"></i>
+            <span class="day4main"></span>
+            <span class="day4description"></span>
+            <span class="day4temp"></span>
+            <span class="day4feelsLike"></span>
+            <span class="day4rain"></span>
+            <span class="day4clouds"></span>
+        </div>
+        <div class="day5 fiveday">
+            <h2 class="day5date"></h2>
+            <i id="day5" class="owi"></i>
+            <span class="day5main"></span>
+            <span class="day5description"></span>
+            <span class="day5temp"></span>
+            <span class="day5feelsLike"></span>
+            <span class="day5rain"></span>
+            <span class="day5clouds"></span>
+        </div>
+    </div>
+</body>
+</html>
